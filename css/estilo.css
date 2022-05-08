@@ -1,0 +1,223 @@
+/*Lo que hace el @media es adaptar la web al tamaño que le hayamos indicado*/
+@media only all and (max-width: 1720px){
+    
+    .bvideo{
+        width: 600px;
+        height: 300px;
+        }
+}
+
+@media only all and (max-width: 1440px){
+    
+    .bvideo{
+        width: 400px;
+        height: 300px;
+        }
+}
+
+@media only all and (min-width: 426px) and (max-width: 1024px){
+    
+    nav ul li{
+    font-size: 15px;
+    margin: 0px -35px 0px -35px;
+    
+    }
+
+   .bvideo{
+    width: 600px;
+    height: 300px;
+    }
+
+}
+
+/*El "*" lo que hace es aplicarle el "font-family" a toda la web */
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Lo que he hecho aquí es poner el "margin" del "body" a 0 y cambiar el color del "background" */
+body{
+    margin:0;
+    background-color: #f2f2f2
+}
+/*Con esto lo que he hecho es separar el "padding" de arriba y abajo del menú de navegación para que no sea tan estrecho*/
+nav{
+    background-color: rgba(0,0,0,0.90);
+    padding: 10px 0 10px 0;
+}
+/*Aquí lo que hacemos es darle forma al menú de navegación poniendolo en modo horizontal, en el centro y sin el estilo*/
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+/*Cambiamos el color del texto del menú de navegación y quitamos el subrayado con el "text-decoration", también le hemos dado una separación de izquierda y derecha entre los enlaces con el margin*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 100px 0px 100px
+   
+}
+/*Aquí lo que he hecho es a la class icono que está dentro de la lista ponerle un icono en el menú de navegación*/
+.icono{
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    display: block;
+    background-image: url(../images/icono.png);
+}
+/*Modificación del texto debajo del menú de navegación*/
+.txt_hd{
+    font-size: 12px;
+    text-align: center;
+}
+/*Imagen de fondo al que le hemos dado un tamaño y hemos rellenado hasta que complete el background*/
+.fotoPrincipal{
+    text-align: center;
+    background-image: url(../images/fondo.jpg);
+    min-height: 200px;
+    background-repeat: repeat;
+}
+/*Texto de introducción al formulario*/
+.text_form{
+    font-size: 12px;
+    text-align: center;
+}
+/*Clase formulario donde hemos tocado el padding de izquierda y derecha, el tamaño de la fuente y los bordes del formulario*/
+.formulario {
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+/*Moficiación del inpunt del formulariuo*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.90);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*Moficiación del inpunt del formulariuo*/  
+input[type=submit] {
+    width: 100%;
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Moficiación del inpunt del formulariuo*/  
+input[type=submit]:hover {
+    background-color:rgba(0,0,0,0.90);
+}
+
+.hlanzamiento{
+    font-size: 12px;
+    text-align: center;
+}
+.fotoLanzamientos{
+    text-align: center;
+    background-image: url(../images/fondo.jpg);
+    min-height: 200px;
+    background-repeat: repeat;
+}
+/*Clase bvideo del iframe donde modificamos los margenes y bordes de los videos*/
+.bvideo{
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 60px 0 60px;
+}
+/*Adaptación de la caja de texto*/
+.cajatexto p{
+    font-size: 12px;
+    text-align: justify-all;
+    margin: 1cm;
+}
+/*Modificación de los bordes de las imágenes*/
+#imgt, #imgp, #imgg{
+    border-radius: 10%;
+}
+/*Imágen flotante a la derecha*/
+#imgt{
+    float: right;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+/*Imágen flotante a la izquierda*/
+#imgp{
+    float: left;
+    margin-right: 1cm;
+}
+/*Imágen flotante a la derecha*/
+#imgg{
+    float: right;
+    margin-left: 1cm;
+}
+/*Modificación del botón del script*/
+.botonScript{
+text-align: center;
+}
+.botonScript button{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.botonScript button:hover{
+    background-color: #555555;
+    color: white;
+}
+/*Modificación de la tabla del script*/
+.tablaScript table,th,td {
+    text-align: left;
+    border : 1px solid black;
+    border-collapse: collapse;    
+}
+.tablaScript th,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.tablaScript{
+    display: flex;
+    justify-content: center;   
+}
+.tablaScript th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+}
+.tablaScript table{
+    width: 100%;
+}
+.tablaScript tr:hover{
+    background-color: #ddd;
+}
+/*Fondo del div del iframe del mapa*/
+.mapa{
+    background-image: url(../images/fondo.jpg);
+    text-align: center;
+}    
+/*Aquí he añadido un iframe de mapa*/
+.mapa iframe{
+    margin: 60px;
+    border-radius: 10px;
+    width: 80%;
+}
+/*Pie de página de la web fijo*/
+footer{
+    font-size: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+    text-align: center;
+}

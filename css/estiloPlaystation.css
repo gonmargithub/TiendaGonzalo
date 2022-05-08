@@ -1,0 +1,159 @@
+/*Lo que hace el @media es adaptar la web al tamaño que le hayamos indicado*/
+@media all and (max-width: 1024px){
+
+    nav ul li{
+    font-size: 15px;
+    margin: 0px -35px 0px -35px;
+    }
+
+}
+/*El "*" lo que hace es aplicarle el "font-family" a toda la web */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Lo que he hecho aquí es poner el "margin" del "body" a 0 y cambiar el color del "background" */
+
+body {
+    margin: 0;
+    background-color: #f2f2f2
+}
+/*Con esto lo que he hecho es separar el "padding" de arriba y abajo del menú de navegación para que no sea tan estrecho*/
+
+nav {
+    background-color: rgba(0, 0, 0, 0.90);
+    padding: 10px 0 10px 0;
+}
+/*Aquí lo que hacemos es darle forma al menú de navegación poniendolo en modo horizontal, en el centro y sin el estilo*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+/*Cambiamos el color del texto del menú de navegación y quitamos el subrayado con el "text-decoration", también le hemos dado una separación de izquierda y derecha entre los enlaces con el margin*/
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    margin: 0 100px 0 100px
+}
+/*Aquí lo que he hecho es a la class icono que está dentro de la lista ponerle un icono en el menú de navegación*/
+
+.icono {
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    display: block;
+    background-image: url(../images/icono.png);
+
+}
+/*Modificación del texto debajo del menú de navegación*/
+
+.txt_hd {
+    font-size: 12px;
+    text-align: center;
+}
+/*Imagen de fondo al que le hemos dado un tamaño y hemos rellenado hasta que complete el background*/
+
+.fotoPrincipal {
+    text-align: center;
+    background-image: url(../images/fondo.jpg);
+    min-height: 200px;
+    background-repeat: repeat;
+}
+/*Ya aquí lo que empezamos es el catálogo de la WEB, donde vamos a darle la forma y el diseño*/
+.catalogo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 4cm;
+}
+
+.catalogo .title {
+    text-align: center;
+}
+/*Este código es el que da la forma de columnas al catálogo utilzando el grid*/
+.catalogo .productosCatalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+
+}
+/*Aquí ajustamos la caja del producto incluyendole un fondo y bordes redondeados*/
+.catalogo .productosCatalogo .producto {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-image: url(../images/fondo.jpg);
+    border: 2px solid rgba(0, 0, 0, 0.90);
+    border-radius: 10px;
+
+}
+/*Tamaño de las imágenes de los productos*/
+.catalogo .productosCatalogo .producto img {
+    height: 10cm;
+}
+
+.catalogo .productosCatalogo .producto h3 {
+    padding: .5rem 0;
+    font-size: 1cm;
+    color: white;
+}
+.catalogo .productosCatalogo .producto p{
+color:white;
+}
+/*Con esto lo que hacemos es darle forma al precio del producto*/
+.catalogo .productosCatalogo .producto .precio {
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+/*Botón de añadir a la cesta de la web*/
+button {
+    margin-top: 1cm;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+/*El hover permite que salgan los ajustes establecidos al pasar el cursor*/
+}
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+/*Aquí le hemos dado diseño a la tabla*/
+table{
+    width: 100%;
+}
+table, th, td {
+    margin-top: 1cm;
+    text-align: left;
+    border : 1px solid black;
+    border-collapse: collapse;    
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+}
+tr:hover{
+    background-color: #ddd;
+}
+/*Píe de página de la web*/
+footer{
+    font-size: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+    text-align: center;
+}

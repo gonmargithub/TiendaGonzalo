@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>PlayStation</PLATAFORMA>
+        <NOMBRE>Horizon Forbidden West</NOMBRE>
+        <PRECIO>64,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>PlayStation</PLATAFORMA>
+        <NOMBRE>Jumanji: El Videojuego</NOMBRE>
+        <PRECIO>29,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>PlayStation</PLATAFORMA>
+        <NOMBRE>Ratchet and Clank: Una Dimensión Aparte</NOMBRE>
+        <PRECIO>79,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>PlayStation</PLATAFORMA>
+        <NOMBRE>Uncharted: Colección Legado de los Ladrones</NOMBRE>
+        <PRECIO>39,90€</PRECIO>
+    </VIDEOJUEGO>
+
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Xbox</PLATAFORMA>
+        <NOMBRE>Grand Theft Auto V</NOMBRE>
+        <PRECIO>31,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Xbox</PLATAFORMA>
+        <NOMBRE>Monopoly Madness</NOMBRE>
+        <PRECIO>19,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Xbox</PLATAFORMA>
+        <NOMBRE>Guardians Of the Galaxy</NOMBRE>
+        <PRECIO>69,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Xbox</PLATAFORMA>
+        <NOMBRE>Far Cry 6</NOMBRE>
+        <PRECIO>29,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Nintendo</PLATAFORMA>
+        <NOMBRE>Mario + Rabbids Kingdom</NOMBRE>
+        <PRECIO>29,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Nintendo</PLATAFORMA>
+        <NOMBRE>Plants Vs. Zombies Battle</NOMBRE>
+        <PRECIO>29,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Nintendo</PLATAFORMA>
+        <NOMBRE>Klonoa Phantasy Reverie</NOMBRE>
+        <PRECIO>10,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Nintendo</PLATAFORMA>
+        <NOMBRE>Sonic Colours Ultimate</NOMBRE>
+        <PRECIO>39,90€</PRECIO>
+    </VIDEOJUEGO>
+        <VIDEOJUEGO> 
+        <PLATAFORMA>Pc</PLATAFORMA>
+        <NOMBRE>Battlefield 2042</NOMBRE>
+        <PRECIO>59,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Pc</PLATAFORMA>
+        <NOMBRE>Immortal Realms: Vampire</NOMBRE>
+        <PRECIO>19,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Pc</PLATAFORMA>
+        <NOMBRE>The Elder Scrolls</NOMBRE>
+        <PRECIO>59,90€</PRECIO>
+    </VIDEOJUEGO>
+    <VIDEOJUEGO> 
+        <PLATAFORMA>Pc</PLATAFORMA>
+        <NOMBRE>Pathfinder Kingmaker</NOMBRE>
+        <PRECIO>39,90€</PRECIO>
+    </VIDEOJUEGO>
+</CATALOGO>

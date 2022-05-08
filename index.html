@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Página Gonzalo</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+<!--Aquí lo que he hecho es crear el menú de navegación en modo de lista para poder luego en el css estilizarlo a mi gusto-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="icono"></a></li>
+                <li><a href="tiendaPlaystation.html">PlayStation</a></li>
+                <li><a href="tiendaXbox.html">Xbox</a></li>
+                <li><a href="tiendaNintendo.html">Nintendo</a></li>
+                <li><a href="tiendaPc.html">Pc</a></li>
+            </ul>
+        </nav>
+<!--Este parráfo lo tenemos situado debajo del menú de navegación siendo una pequeña introducción a nuestro catálogo-->
+        <p class="txt_hd">Bienvenido a nuestro extenso catálogo, aquí podrás encontrar
+            todo tipo de videojuegos de cualquier plataforma, échale un vistazo!</p>
+<!--El div de aquí lo tenemos creado para en el css poder introducir la imágen de una parte del background-->
+        <div class="fotoPrincipal"></div>
+    </header>
+<!--El hr lo que hace es una separación en la web-->
+    <hr>
+<!--Una pequeña introducción para el formulario-->
+    <h1 class="text_form">Antes de todo nos gustaría que rellenes este pequeño formulario!</h1>
+<!--Aquí lo que vamos a hacer con el div es darle forma al formulario, aparte dentro tenemos el formulario con sus label, input y select, en los que 
+    he utilizado el input "type=text" para la caja de texto con su "placeholder" para saber que hay que rellenarlo con nuestros datos, luego dentro del select he utilizado la "option value"
+    para poder seleccionar nuestra ciudad poniendo por defecto la ciudad de Valencia, también he añadido el input "type=checkbox" para que se seleccione la casilla de la plataforma
+    que está buscando, así pudiendo recopilar los datos de las plataformas más visitadas de la web-->
+    <div class="formulario">
+        <form>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Gonzalo">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Talavera">
+
+            <label for="ciudad">Ciudad</label>
+            <select id="ciudad" name="ciudad">
+                <option value="Valencia">Valencia</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+
+            </select>
+
+            <p>Qué plataforma estás buscando</p>
+
+            <input type="checkbox" id="PlayStation" name="PlayStation" value="PlayStation">
+            <label for="PlayStation"> PlayStation</label><br>
+
+            <input type="checkbox" id="Xbox" name="Xbox" value="Xbox">
+            <label for="Xbox"> Xbox</label><br>
+
+            <input type="checkbox" id="Nintendo" name="Nintendo" value="Nintendo">
+            <label for="Nintendo"> Nintendo</label><br>
+
+            <input type="checkbox" id="Pc" name="Pc" value="Pc">
+            <label for="Pc"> Pc</label><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+<!--El hr lo que hace es una separación en la web-->
+    <hr>
+<!--Esto es un h1 como título para la intruducción a los videos de los nuevos lanzamientos-->
+    <h1 class="hlanzamiento">A continuación le dejamos unos videos sobre los nuevos lanzamientos!</h1>
+
+    <div class="fotoLanzamientos">
+<!--Lo que hace el br es un salto de línea -->
+        <br>
+<!--Aquí hemos utilizado la etiqueta "iframe" para cada uno, así no haría falta tener el video subido directamente de la web -->
+        <iframe class="bvideo" src="https://www.youtube.com/embed/EdtNtbp3E8Y"></iframe>
+        <iframe class="bvideo" src="https://www.youtube.com/embed/9-HCHKrvw_E"></iframe>
+        <iframe class="bvideo" src="https://www.youtube.com/embed/5DSQB5pwvFk"></iframe>
+        <iframe class="bvideo" src="https://www.youtube.com/embed/j3Q_cj-fOxM"></iframe>
+    </div>
+<!--Aquí he creado un "article" con su clase, en el cual hemos añadido párrafos y también imágenes con sus "id" para luego posiconarlas en el css-->
+    <article class="cajatexto">
+        <img id="imgt" alt="" src="images/tennismachine.jpg">
+        <p>Los orígenes del videojuego se remontan a la década de 1950, cuando poco después de la aparición de las
+            primeras computadoras electrónicas tras el fin de la Segunda Guerra Mundial, se llevaron a cabo los primeros
+            intentos por implementar programas de carácter lúdico. Así, fueron creados el Nim (1951) o el Oxo (1952),
+            juegos electrónicos que aún no pueden ser denominados videojuegos, y el Tennis for Two (1958) o el Spacewar!
+            (1962), auténticos pioneros del género. Todos ellos eran todavía prototipos, juegos muy simples y de
+            carácter experimental que no llegaron a comercializarse, entre otras cosas, porque funcionaban en unas
+            máquinas que solo estaban disponibles en universidades o en institutos de investigación.
+            <br>
+            <br>
+            <img id="imgp" alt="" src="images/pongmachine.jpg">
+
+            La consola Magnavox Odyssey (1972).
+            No sería hasta la década de los 70 en que, con el descenso de los costes de fabricación, aparecieron las
+            primeras máquinas recreativas y los primeros videojuegos dirigidos al gran público. Títulos como Computer
+            Space (1971) o Pong (1972), de Atari, inauguraron las primeras máquinas recreativas construidas al efecto,
+            que funcionaban con monedas. Poco después llegarían los videojuegos a los hogares gracias a las consolas
+            domésticas, la primera de las cuales fue la Magnavox Odyssey (1972), y más tarde la exitosa Atari 2600 o VCS
+            (de 1977), con su sistema de cartuchos intercambiables. Por aquel entonces las máquinas de arcade empezaron
+            a hacerse comunes en bares y salones recreativos, una expansión debida en parte a un matamarcianos que
+            alcanzó gran popularidad, el Space Invaders (1978). Otros juegos que marcaron esta primera época fueron
+            Galaxian (1979), Asteroids (1979) o Pac-Man (1980).
+            <br>
+            La consola portátil Game Boy (1989).
+            <br><br>
+            En los años 1980, la empresa norteamericana Atari tuvo que compartir su dominio en la industria del
+            videojuego con dos compañías llegadas de Japón: Nintendo (con su famosa consola NES) y SEGA (con la Master
+            System). Paralelamente, surgió una generación de ordenadores personales asequibles y con capacidades
+            gráficas que llegaron a los hogares de millones de familias, como fueron el Spectrum, el Amstrad CPC, el
+            Commodore 64 o el MSX. A partir de entonces, los videojuegos empezaron a convertirse en una poderosa
+            industria. Fue además una época muy creativa para los desarrolladores de videojuegos; muchos de la
+            principales géneros que existen hoy en día (conducción, lucha, plataformas, estrategia, aventura...) tomaron
+            forma en esta década. Por otra parte, aparecieron también las primeras consolas de bolsillo, también
+            conocidas como «maquinitas», que aunque hasta la llegada de la Game Boy de Nintendo (1989) solo ejecutaban
+            un juego cada una, alcanzaron gran popularidad entre los más jóvenes.
+            <br><br>
+            <img id="imgg" alt="" src="images/gameboy.jpg">
+            Los años 1990 traen el salto a la tecnología de 16-bit (como la SNES y la Mega Drive), lo que traía consigo
+            importantes mejoras gráficas. Entra en escena el gigante Sony con su primera PlayStation (1994), mientras
+            Nintendo y Sega actualizan sus máquinas (Nintendo 64 y Sega Saturn). En cuanto a las computadoras, el
+            progreso de los PC termina por barrer del mapa a los demás sistemas salvo el de Apple. Aparecen juegos cada
+            vez más avanzados tecnológicamente, como los juegos de tiradores, también llamados shooters en 3D. Estos
+            comenzaron siendo en tercera persona pero a través de la implementación de técnicas de cámara en primera
+            persona, se convirtieron en lo que a día de hoy se denomina Juegos de tiradores en primera persona o FPS. En
+            el año 2002 entra Microsoft en el sector de las videoconsolas con su Xbox, En 2001 se lanza la Gamecube y en
+            el 2006 Nintendo lanza su innovadora Wii. Entretanto, Sony actualiza su exitosa PlayStation (versiones II y
+            III), y en los PC, gracias a la expansión del Internet, cobran protagonismo los juegos en línea y
+            multijugador.
+            <br><br>
+            Por último, en la década de 2010 emergen como plataformas de juegos los dispositivos táctiles portátiles,
+            como los teléfonos inteligentes y las tabletas, llegando a un público muy amplio. Por otro lado, varias
+            empresas tecnológicas empiezan a desarrollar cascos de realidad virtual, que prometen traer nuevas
+            experiencias al mundo del entretenimiento electrónico.
+        </p>
+    </article>
+
+    <br>
+    <hr><br>
+<!--Aquí tenemos el botón que mostraría nuestro XML-->
+    <div class="botonScript">
+        <button type="button" onclick="loadDoc()">Mostrar catálogo completo:</button>
+    </div>
+    <br><br>
+    <div class="tablaScript">
+        <table id="demo"></table>
+<!--Esto sería el script que nos permite importar los datos en forma de tabla-->
+        <script>
+            function loadDoc() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        myFunction(this);
+                    }
+                };
+
+                xhttp.open("GET", "videojuegos.xml", true);
+                xhttp.send();
+            }
+
+            function myFunction(xml) {
+                var i;
+                var xmlDoc = xml.responseXML;
+                var table = "<tr><th>Plataforma</th><th>Nombre</th><th>Precio</th></tr>";
+                var x = xmlDoc.getElementsByTagName("VIDEOJUEGO");
+                for (i = 0; i < x.length; i++) {
+                    table += "<tr><td>" +
+                        x[i].getElementsByTagName("PLATAFORMA")[0].childNodes[0].nodeValue +
+                        "</td><td>" +
+                        x[i].getElementsByTagName("NOMBRE")[0].childNodes[0].nodeValue +
+                        "</td><td>" +
+                        x[i].getElementsByTagName("PRECIO")[0].childNodes[0].nodeValue +
+                        "</td><tr>";
+                }
+                document.getElementById("demo").innerHTML = table;
+            }
+        </script>
+    </div>
+<!--Lo que he puesto aquí es un iframe del mapa de Valencia-->
+<div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d197294.47340645303!2d-0.5015954687885393!3d39.40770125212401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4cf0efb06f%3A0xb4a351011f7f1d39!2sValencia!5e0!3m2!1ses!2ses!4v1651755785253!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!--El footer sería nuestro píe de página de la web-->
+    <footer>
+        <h1>Gonzalo Talavera Marturet</h1>        
+        <h2>Copyright © 2022 TiendaGonzalo Inc. Todos los derechos reservados.</h2>
+    </footer>
+</body>
+
+</html>
